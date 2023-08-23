@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/remixicon.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/remixicon.css" />
     <title>ShopSphere</title>
-</head>
-<body>
-
-   <nav class="navbar">
-
-    <div class="globe-and-logo">
-        <div class="site-logo">Sho<span class="colored-span">pSp</span>here</div>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="globe-and-logo">
+        <div class="site-logo">
+          Sho<span class="colored-span">pSp</span>here
+        </div>
         <div><i class="ri-global-fill"></i></div>
-    </div>
-    
-    <div class="categories">
+      </div>
+      <div class="categories">
         <div><i class="ri-function-line"></i></div>
-        <div id="filter" class="select-btn">
+        <div>Categories</div>
+        <!-- <div id="filter" class="select-btn">
             <label class="label-text" id="filter-2" for="dress">Categories</label>
             <select id="dress" name="dress">
               <option value=""></option>
@@ -34,30 +34,42 @@
               <option value="formalwear">Formalwear</option>
               <option value="accessories">Accessories</option>
             </select>
-          </div>
-    </div>
-        
+          </div> -->
+      </div>
 
-    <div class="search">
+      <div class="search">
         <form action="" class="search-bar">
-            <input type="text" placeholder="Search for products..." name="q">
-            <button type="submit"><i class="ri-search-line"></i> search</button>
+          <input type="text" placeholder="Search for products here..." name="q" />
+          <button type="submit"><i class="ri-search-line"></i> search</button>
         </form>
-    </div>
+      </div>
 
-
-    <div class="acct-love-cart">
+      <div class="acct-love-cart">
         <div class="acct">
-            <span><i class="ri-account-circle-line"></i></span>
-            <span class="myacct">My Account</span>
-            <span><i class="ri-arrow-down-s-line"></i></span>
+          <span><i class="ri-account-circle-line"></i></span>
+          <span class="myacct">My Account</span>
+          <span><i class="ri-arrow-down-s-line"></i></span>
         </div>
         <div><i class="ri-heart-line"></i></div>
         <div><i class="ri-shopping-cart-2-line"></i></div>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="first-hero">
+            <div class="hero-text-and-btn">
+                <div class="hero-text"><span class="colored-span">Are you covered?</span> <span>Home, Life & Auto Insurance.</span></div>
+                <div class="hero-btn"><button class="get-started-btn">GET STARTED</button></div>
+            </div>
+
+            <div class="hero-img-part">
+                <div class="hero-img"><img class="hero-image" src="/images/hero-img-removebg-preview.png" alt=""></div>
+                <div class="text-on-img">After using insurance, the burden on my mind feels very less</div>
+            </div>
+        </div>
+        <div class="second-hero"></div>
     </div>
 
-   </nav>
-
     <script src="/app.js"></script>
-</body>
+  </body>
 </html>
