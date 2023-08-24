@@ -252,6 +252,49 @@ ri-shopping-cart-2-line {
   font-size: 20px;
 }
 
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.5em;
+  padding: 0 3em;
+}
+
+.item-div {
+  background-color: #cac7c7;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 30vh;
+}
+
+.item-img {
+  height: 70%;
+  width: 110px;
+}
+
+.item-image {
+  height: 100%;
+  width: 100%;
+}
+
+.item-title {
+  padding: 7px 5px;
+  background-color: rgb(105, 30, 30);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-weight: 500;
+  font-size: 9px;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Manrope', sans-serif; */
 /* font-family: 'Tilt Prism', cursive; */
