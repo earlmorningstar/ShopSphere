@@ -509,8 +509,57 @@ body {
   font-size: 12px;
 }
 
+.footer {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(105, 30, 30);
+  color: #ffffff;
+  padding: 1em 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#site-x-logo-id {
+  margin-bottom: 10px;
+}
+
+.main-footer-info {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.feature-note-i {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+#feature-note-id {
+  width: 180px;
+  padding-bottom: 5px;
+}
+
+.join-login-btn {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 1px solid rgb(105, 30, 30);
+  padding: 6px 12px;
+}
+
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Manrope', sans-serif; */
 /* font-family: 'Tilt Prism', cursive; */
 /* font-family: 'Cherry Bomb One', cursive; */
 /* font-family: 'Tektur', cursive; */
+
+/* .hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.3);
+} */
