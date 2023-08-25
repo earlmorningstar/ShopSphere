@@ -109,9 +109,7 @@ body {
   gap: 4px;
 }
 
-.ri-account-circle-line,
-ri-arrow-down-s-line,
-ri-shopping-cart-2-line {
+.ri-account-circle-line {
   font-size: 24px;
   color: rgb(105, 30, 30);
 }
@@ -259,7 +257,7 @@ ri-shopping-cart-2-line {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-column-gap: 0.5em;
-  grid-row-gap: 0.5em;
+  grid-row-gap: 0.9em;
   padding: 1em 3em 2em 3em;
 }
 
@@ -445,7 +443,7 @@ ri-shopping-cart-2-line {
 .page-note {
   display: flex;
   background-color: #cac7c7;
-  margin: 0 3em;
+  margin: 1em 3em 2em 3em;
   padding: 1em 0;
   gap: 5px;
   align-items: center;
@@ -461,10 +459,20 @@ ri-shopping-cart-2-line {
 
 .notice-text {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 15px;
+  text-align: center;
 }
 
+.notice-text-i {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .link-text {
   text-decoration: none;
   color: rgb(105, 30, 30);
@@ -473,6 +481,32 @@ ri-shopping-cart-2-line {
 .link-text:hover {
   text-decoration: underline;
   text-underline-offset: 1.5px;
+}
+
+.shopsphere-features {
+  padding: 1em 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.diff-feature-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  width: 15%;
+}
+
+.feature-icon {
+  color: rgb(105, 30, 30);
+  font-size: 24px;
+}
+
+.feature-note {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 /* font-family: 'Poppins', sans-serif; */
