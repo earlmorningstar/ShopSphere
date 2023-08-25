@@ -29,6 +29,7 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 
 .ri-global-fill {
@@ -52,6 +53,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   gap: 4px;
+  cursor: pointer;
 }
 
 .ri-function-line {
@@ -95,6 +97,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
 }
 
 .myacct {
@@ -512,7 +515,7 @@ body {
 .footer {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(105, 30, 30);
-  color: #ffffff;
+  color: #cac7c7;
   padding: 1em 3em;
   display: flex;
   justify-content: space-between;
@@ -539,6 +542,12 @@ body {
 #feature-note-id {
   width: 180px;
   padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.feature-note-i:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .join-login-btn {
@@ -549,6 +558,7 @@ body {
   border-radius: 20px;
   border: 1px solid rgb(105, 30, 30);
   padding: 6px 12px;
+  background-color: #cac7c7;
 }
 
 /* font-family: 'Poppins', sans-serif; */
@@ -563,3 +573,24 @@ body {
   transition: all 0.2s ease-in-out;
   transform: scale(1.3);
 } */
+
+
+.footer-icon-list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #cac7c7;
+  background-color: #cac7c7;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 1px;
+  font-size: 20px;
+  color: rgb(105, 30, 30);
+  text-decoration: none;
+}
