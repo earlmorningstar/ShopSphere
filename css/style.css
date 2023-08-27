@@ -745,7 +745,7 @@ body {
 
 .dash-title-export-btn {
   padding: 1.5em 3em 1em 3em;
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -801,25 +801,26 @@ body {
 }
 
 .dash-light-title {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
+  margin-bottom: 2px;
 }
 
 .myacct-bold {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
 
-.icon-and-bal{
+.icon-and-bal {
   display: flex;
   align-items: center;
   gap: 3px;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
-.bal{
+.bal {
   font-size: 12px;
 }
 
@@ -829,4 +830,77 @@ body {
 
 .bal-red-icon {
   color: rgb(186, 29, 29);
+}
+
+.order-summary-div {
+  margin: 0 3em;
+  background-color: #cec7c7;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.order-sum-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.numb-of-item-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.each-item-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.item-amount {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+.order-info-div {
+  padding: 0 0.5em;
+  margin-bottom: 130px;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 90px;
+  border-bottom: 2px solid #aa9898;
+  text-align: start;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 85px;
+  border-bottom: 2px solid #aa9898;
+  text-align: left;
+}
+
+.prod-num-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.prod-num {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.prod-date-time {
+  font-family: "Manrope", sans-serif;
+  font-size: 9px;
+  font-weight: 500;
 }
