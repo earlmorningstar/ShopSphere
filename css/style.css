@@ -741,5 +741,92 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
+}
 
+.dash-title-export-btn {
+  padding: 1.5em 3em 1em 3em;
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-header-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.export-icon {
+  display: inline-block;
+  transform: scaleX(-1);
+  color: rgb(105, 30, 30);
+}
+
+.rev-prof-val-score {
+  padding: 0 3em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.each-rpvs-div {
+  display: flex;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 1em;
+  background-color: #cec7c7;
+  width: fit-content;
+}
+
+.rpvs-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+}
+
+#rpvs-icon-id {
+  background-color: #c8b4b4;
+  font-size: 20px;
+  color: rgb(105, 30, 30);
+}
+
+.rpvs-text-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dash-light-title {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.myacct-bold {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.icon-and-bal{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.bal{
+  font-size: 12px;
+}
+
+.bal-green-icon {
+  color: green;
+}
+
+.bal-red-icon {
+  color: rgb(186, 29, 29);
 }
