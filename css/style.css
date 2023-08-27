@@ -121,6 +121,63 @@ body {
   cursor: pointer;
 }
 
+/* @media screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .ri-global-fill {
+    display: none;
+  }
+
+  .categories {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .sign-up-icon {
+    display: none;
+  }
+
+  .welcome-text {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .ri-store-2-line {
+    display: none;
+  }
+  .hero-img-part {
+    display: none;
+  }
+
+  .hero-section {
+  }
+
+  .hero-txt-and-btn {
+    width: 100%;
+  }
+
+  .hero-text {
+    width: 100%;
+    flex-direction: row;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+  #seller-center {
+    display: none;
+  }
+} */
+
 .hero-section {
   display: flex;
   gap: 10px;
@@ -253,51 +310,6 @@ body {
   text-align: center;
   font-size: 20px;
 }
-
-/* @media screen and (max-width: 600px) {
-  .navbar {
-    width: 100%;
-  }
-
-  .ri-global-fill {
-    display: none;
-  }
-
-  .categories {
-    display: none;
-  }
-
-  .ri-account-circle-line {
-    display: none;
-  }
-
-  .search {
-    display: none;
-  }
-
-  .sign-up-icon {
-    display: none;
-  }
-
-  .welcome-text {
-    text-align: center;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-  .ri-store-2-line {
-    display: none;
-  }
-  .hero-img-part {
-    display: none;
-  }
-
-  .second-hero {
-    display: none;
-  }
-
-  .category-container {
-  }
-} */
 
 .category-container {
   display: grid;
@@ -642,6 +654,9 @@ body {
   padding: 0.5em 3em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  /* position: sticky;
+  top: 0; */
 }
 
 .dash-ii {
@@ -654,7 +669,7 @@ body {
   display: flex;
   gap: 4px;
   align-items: center;
-  background-color: #c1bcbc;
+  background-color: #cec7c7;
   padding: 2px 6px;
   border-radius: 8px;
   text-align: center;
@@ -664,7 +679,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c1bcbc;
+  background-color: #cec7c7;
   padding: 1px;
   height: 40px;
   width: 40px;
@@ -674,6 +689,12 @@ body {
 .wallet-type-and-amt {
   display: flex;
   flex-direction: column;
+}
+
+.icon-account-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .ri-notification-line {
@@ -686,17 +707,40 @@ body {
   color: rgb(105, 30, 30);
 }
 
-.footer-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #cac7c7;
-  background-color: #cac7c7;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  padding: 1px;
-  font-size: 20px;
-  color: rgb(105, 30, 30);
-  text-decoration: none;
-}
+/* @media screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .ri-global-fill {
+    display: none;
+  }
+
+  .categories {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .sign-up-icon {
+    display: none;
+  }
+
+  .welcome-text {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .ri-store-2-line {
+    display: none;
+  }
+  .hero-img-part {
+    display: none;
+  }
+
+  #seller-center {
+    display: none;
+  }
+} */
