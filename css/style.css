@@ -802,7 +802,7 @@ body {
 
 .dash-light-title {
   font-family: "Manrope", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   margin-bottom: 2px;
 }
@@ -865,27 +865,24 @@ body {
 
 .order-info-div {
   padding: 0 0.5em;
-  margin-bottom: 130px;
+  margin-bottom: 10px;
 }
 
 .order-info {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-  gap: 90px;
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
   border-bottom: 2px solid #aa9898;
   text-align: start;
+  align-items: center;
 }
 
 .order-details {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-  gap: 85px;
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
   border-bottom: 2px solid #aa9898;
-  text-align: left;
+  text-align: start;
+  align-items: center;
+  padding: 3px 0;
 }
 
 .prod-num-date {
@@ -896,11 +893,67 @@ body {
 .prod-num {
   font-family: "Manrope", sans-serif;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .prod-date-time {
   font-family: "Manrope", sans-serif;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 500;
+}
+
+.numb {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.more-btn {
+  cursor: pointer;
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  padding: 6px 15px;
+  background-color: #b9b7b7;
+}
+
+.new-btn {
+  cursor: pointer;
+  font-family: "Manrope", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  padding: 6px 15px;
+  background-color: #a5a1a1;
+}
+
+#processing-btn {
+  background-color: rgb(199, 199, 111);
+ 
+}
+
+#shipped-btn {
+  background-color: rgb(128, 157, 203);
+}
+
+#delivered-btn {
+  background-color: rgb(103, 178, 103);
+}
+
+#cancelled-btn {
+  background-color: rgb(156, 56, 56);
+}
+
+.all-orders-div {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+}
+
+.ri-arrow-right-circle-fill {
+  color: rgb(105, 30, 30);
 }
