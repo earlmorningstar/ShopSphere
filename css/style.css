@@ -960,7 +960,7 @@ body {
   }
   .welcome-text {
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
   }
   .first-hero {
     display: none;
@@ -968,7 +968,8 @@ body {
   .second-hero {
     width: 100%;
     gap: 10px;
-    height: 300px;
+    height: fit-content;
+    padding-bottom: 50px;
   }
   #sbc-heading {
     padding: 0 3em 1em 3em;
@@ -1018,7 +1019,7 @@ body {
     gap: 15px;
   }
   #feature-note-id {
-    width: 150px;
+    width: 120px;
   }
   .myacct {
     font-size: 15px;
