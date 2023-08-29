@@ -1010,6 +1010,10 @@ body {
   #sport-outfit-id {
     font-size: 16px;
   }
+  .footer {
+    padding: 1em;
+    gap: 20px;
+  }
   .footer-icon-list {
     flex-direction: column;
   }
