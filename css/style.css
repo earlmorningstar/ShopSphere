@@ -900,14 +900,6 @@ body {
   cursor: pointer;
 }
 
-/* .bar {
-  width: 25px;
-  height: 10px;
-  background-color: rgb(156, 56, 56);
-  border-color: rgb(156, 56, 56);
-  transition: 0.4s;
-} */
-
 .dashboard {
   display: none;
 }
@@ -929,12 +921,38 @@ body {
   transform: scale(1.3);
 } */
 
+.acct-dash-zone {
+  display: flex;
+  gap: 12px;  
+}
+
 @media screen and (max-width: 600px) {
   .navbar {
-    width: 100%
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #cac7c7;
+    padding: 1em 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+  }
+  .acct-dash-zone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ri-shopping-cart-2-line {
+    display: none;
+  }
+  .globe-and-logo {
+    width: 100%;
+    display: flex;
+    justify-content: start;
   }
   .ri-global-fill {
-    display: none;
+    /* display: none; */
   }
   .categories {
     display: none;
