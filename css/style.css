@@ -200,6 +200,7 @@ body {
   background-color: #cac7c7;
   width: 30%;
   border-radius: 6px;
+
 }
 
 .sign-up-icon {
@@ -930,7 +931,6 @@ body {
   .navbar {
     width: 100%;
     flex-direction: column;
-    gap: 10px;
     /* background-color: #cac7c7;
     padding: 1em 5em;
     display: flex;
@@ -947,7 +947,6 @@ body {
     display: none;
   }
   .globe-and-logo {
-    width: 100%;
     display: flex;
     justify-content: start;
   }
@@ -976,6 +975,7 @@ body {
   .second-hero {
     width: 100%;
     gap: 20px;
+    height: 300px;
   }
   .category-container {
     display: grid;
