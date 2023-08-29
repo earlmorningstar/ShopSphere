@@ -15,6 +15,7 @@ body {
 }
 
 .navbar {
+  width: 100%;
   background-color: #cac7c7;
   padding: 1em 3em;
   display: flex;
@@ -120,63 +121,6 @@ body {
 .ri-heart-line {
   cursor: pointer;
 }
-
-/* @media screen and (max-width: 600px) {
-  .navbar {
-    width: 100%;
-  }
-
-  .ri-global-fill {
-    display: none;
-  }
-
-  .categories {
-    display: none;
-  }
-
-  .search {
-    display: none;
-  }
-
-  .sign-up-icon {
-    display: none;
-  }
-
-  .welcome-text {
-    text-align: center;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-  .store-icon {
-    display: none;
-  }
-  .hero-img-part {
-    display: none;
-  }
-
-  .hero-section {
-  }
-
-  .hero-txt-and-btn {
-    width: 100%;
-  }
-
-  .hero-text {
-    width: 100%;
-    flex-direction: row;
-
-    font-family: "Poppins", sans-serif;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 50px;
-    margin-bottom: 10px;
-    color: #000000;
-  }
-
-  #seller-center {
-    display: none;
-  }
-} */
 
 .hero-section {
   display: flex;
@@ -332,6 +276,7 @@ body {
 .item-img {
   height: 70%;
   width: 110px;
+ 
 }
 
 .item-image {
@@ -637,27 +582,12 @@ body {
   text-decoration: none;
 }
 
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'Manrope', sans-serif; */
-/* font-family: 'Tilt Prism', cursive; */
-/* font-family: 'Cherry Bomb One', cursive; */
-/* font-family: 'Tektur', cursive; */
-
-/* .hover:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.3);
-} */
-
 .dash-navbar {
   padding: 0.5em 3em;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #cec7c7;
-  /* position: sticky;
-  top: 0; */
 }
 
 .dash-ii {
@@ -960,53 +890,83 @@ body {
 
 
 .menu-toggle {
-  width: 30px;
-  height: 20px;
+  height: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: end;
+  gap: 1px;
+  align-items: end;
   cursor: pointer;
 }
 
 .bar {
-  width: 100%;
-  height: 4px;
-  background-color: #333;
+  width: 25px;
+  height: 10px;
+  background-color: rgb(156, 56, 56);
+  border-color: rgb(156, 56, 56);
   transition: 0.4s;
 }
 
 .dashboard {
   display: none;
-  /* Additional styles for your dashboard container */
 }
 
 .dashboard.active {
   display: block;
-  /* Additional styles for your visible dashboard */
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Manrope', sans-serif; */
+/* font-family: 'Tilt Prism', cursive; */
+/* font-family: 'Cherry Bomb One', cursive; */
+/* font-family: 'Tektur', cursive; */
 
-li {
-  margin-bottom: 10px;
-}
+/* .hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.3);
+} */
 
-/* Media Query for Mobile */
-@media (max-width: 768px) {
-  .menu-toggle {
-      display: flex;
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: 100%
+  }
+  .ri-global-fill {
+    display: none;
+  }
+  .categories {
+    display: none;
+  }
+  .ri-arrow-down-s-line {
+    display: none;
+  }
+  .ri-heart-line {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .welcome-text {
+    text-align: center;
+    font-size: 10px;
+  }
+  .first-hero {
+   display: none;
+  }
+  .second-hero {
+    width: 100%;
+    gap: 20px;
+  }
+  .category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.9em;
+    padding: 1em 3em 2em 3em;
   }
 
-  .dashboard {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-      padding: 20px;
-      color: white;
-  }
+  /* #seller-center {
+    display: none;
+  } */
 }
