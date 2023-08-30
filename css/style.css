@@ -349,7 +349,7 @@ body {
 
 .bolded {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -358,7 +358,7 @@ body {
 }
 
 .best-selling-prod-sec {
-  padding: 0 3em 1em 3em;
+  padding: 0 1em 1em 1em;
   display: grid;
   grid-template-columns: repeat(7, 4fr);
   grid-column-gap: 8px;
@@ -371,9 +371,9 @@ body {
   display: flex;
   gap: 4px;
   flex-direction: column;
-  padding: 0.5em;
+  padding: 1em;
   background-color: #cac7c7;
-  height: 40vh;
+  height: fit-content;
 }
 
 .cart-and-love {
@@ -915,14 +915,6 @@ body {
   color: #ffffff;
 }
 
-/* .dashboard {
-  display: none;
-}
-
-.dashboard.active {
-  display: block;
-} */
-
 .acct-dash-zone {
   display: flex;
   gap: 12px;
@@ -933,6 +925,13 @@ body {
 /* font-family: 'Tilt Prism', cursive; */
 /* font-family: 'Cherry Bomb One', cursive; */
 /* font-family: 'Tektur', cursive; */
+
+/* .dashboard {
+  display: none;
+}
+.dashboard.active {
+  display: block;
+} */
 
 /* .hover:hover {
   text-decoration: underline;
@@ -983,7 +982,6 @@ body {
     height: fit-content;
   }
   #sbc-heading {
-   
   }
   .category-container {
     display: grid;
@@ -1015,11 +1013,8 @@ body {
     gap: 7px;
   }
   .bolded {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
-  }
-  #sport-outfit-id {
-    font-size: 16px;
   }
   .footer {
     padding: 1em;
@@ -1036,13 +1031,7 @@ body {
   #feature-note-id {
     width: 120px;
   }
-  .myacct {
-    font-size: 15px;
-    font-weight: 500;
-  }
   #ei-hidden-item {
     display: none;
   }
 }
-
-
