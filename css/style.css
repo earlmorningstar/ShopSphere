@@ -1083,7 +1083,7 @@ body {
   .dash-opt-bar {
     width: 100%;
     padding: 0.7em 1.5em;
-    gap: 5px;
+    /* gap: 5px; */
   }
   .dash-title-export-btn {
     padding: 1.5em 1.5em 1em 1.5em;
@@ -1093,6 +1093,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 4fr);
     grid-row-gap: 15px;
+    grid-column-gap: 15px;
     align-items: center;
     justify-items: center;
   }
@@ -1103,9 +1104,17 @@ body {
     font-size: 14px;
   }
   .dash-light-title {
-    font-size: 10px;
+    font-size: 8px;
   }
   .prod-num {
-    font-size: 10px;
+    font-size: 8px;
+  }
+  .new-btn {
+    font-size: 8px;
+    padding: 4px 10px;
+  }
+  .more-btn {
+    font-size: 8px;
+    padding: 4px 10px;
   }
 }
