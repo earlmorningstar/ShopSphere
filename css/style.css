@@ -653,6 +653,7 @@ body {
 }
 
 .dash-opt-bar {
+  width: 100%;
   padding: 0.5em 9em;
   display: flex;
   justify-content: space-between;
@@ -719,7 +720,7 @@ body {
   border-radius: 8px;
   padding: 1em;
   background-color: #cec7c7;
-  width: fit-content;
+  width: 200px;
 }
 
 .rpvs-icon {
@@ -799,7 +800,7 @@ body {
 .each-item-bar {
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 .item-amount {
@@ -870,7 +871,7 @@ body {
   font-weight: 600;
   border-radius: 20px;
   border: none;
-  padding: 6px 15px;
+  padding: 6px 13px;
   background-color: #a5a1a1;
 }
 
@@ -1080,7 +1081,31 @@ body {
     width: 20px;
   }
   .dash-opt-bar {
-    padding: 0.7em 3em;
-    gap: 10px;
+    width: 100%;
+    padding: 0.7em 1.5em;
+    gap: 5px;
+  }
+  .dash-title-export-btn {
+    padding: 1.5em 1.5em 1em 1.5em;
+  }
+  .rev-prof-val-score {
+    padding: 0 1.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-row-gap: 15px;
+    align-items: center;
+    justify-items: center;
+  }
+  .order-summary-div {
+    margin: 0 1em;
+  }
+  .item-amount {
+    font-size: 14px;
+  }
+  .dash-light-title {
+    font-size: 10px;
+  }
+  .prod-num {
+    font-size: 10px;
   }
 }
