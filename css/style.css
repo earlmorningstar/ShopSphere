@@ -1057,12 +1057,18 @@ body {
 
   .dash-navbar {
     width: 100%;
-    padding: 0 1.5em;
+    padding: 1em 1.5em;
+  }
+  #site-logo-id {
+    font-size: 18px;
   }
   .dash-ii {
     gap: 15px;
   }
   .sc-text {
+    display: none;
+  }
+  .wallet-div {
     display: none;
   }
   .ri-wallet-line {
