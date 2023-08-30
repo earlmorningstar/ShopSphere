@@ -1,8 +1,8 @@
-const menuToggle = document.getElementById("menu-toggle");
-const dashboard = document.getElementById("dashboard");
+// const menuToggle = document.getElementById("menu-toggle");
+// const dashboard = document.getElementById("dashboard");
 
-function toggleDashboard() {
-  dashboard.classList.toggle("active");
-}
+// function toggleDashboard() {
+//   dashboard.classList.toggle("active");
+// }
 
-menuToggle.addEventListener("click", toggleDashboard);
+// menuToggle.addEventListener("click", toggleDashboard);

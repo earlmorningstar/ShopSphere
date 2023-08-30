@@ -226,11 +226,13 @@ body {
 .sell-section {
   border-radius: 6px;
   padding: 0.8em;
-  background-color: #dbdada;
+  /* background-color: #dbdada; */
+  background-color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  height: fit-content;
 }
 
 .ss-icon-and-text {
@@ -903,13 +905,23 @@ body {
   cursor: pointer;
 }
 
-.dashboard {
+.logo-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.dash-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* .dashboard {
   display: none;
 }
 
 .dashboard.active {
   display: block;
-}
+} */
 
 .acct-dash-zone {
   display: flex;
@@ -1033,3 +1045,5 @@ body {
     display: none;
   }
 }
+
+

@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/remixicon.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>ShopSphere</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="globe-and-logo">
-        <div class="site-logo">
-          Sho<span class="colored-span">pSp</span>here
+        <div class="site-logo"><a class="logo-link" href="/index.html">Sho<span class="colored-span">pSp</span>here</a>
         </div>
         <div><i class="ri-global-fill"></i></div>
       </div>
@@ -41,823 +43,860 @@
 
       <div class="search">
         <form action="" class="search-bar">
-          <input type="text" placeholder="Search for products here..." name="q" />
+          <input
+            type="text"
+            placeholder="Search for products here..."
+            name="q"
+          />
           <button type="submit"><i class="ri-search-line"></i> search</button>
         </form>
       </div>
 
       <div class="acct-dash-zone">
-      <div class="acct-love-cart">
-        <div class="acct">
-          <span><i class="ri-account-circle-line"></i></span>
-          <span class="myacct">My Account</span>
-          <span><i class="ri-arrow-down-s-line"></i></span>
-        </div>
-        <div><i class="ri-heart-line"></i></div>
-        <div><i class="ri-shopping-cart-2-line"></i></div>
-      </div>
-
-      <!-- --- Dashboard Button--- -->
-      <div id="menu-toggle" class="menu-toggle">
-        <button class="dash-btn">Dashboard</button>
-    </div>
-</div>
-    </nav>
-
-    <!-- Dashboard Content Starts -->
-    <div id="dashboard" class="dashboard">
-        <nav class="dash-navbar">
-            <div class="globe-and-logo">
-              <div class="site-logo">
-                Sho<span class="colored-span">pSp</span>here
-              </div>
-              <div id="seller-center" class="notice-text"><b>|</b></div>
-              <div id="seller-center" class="myacct">Seller Center</div>
-            </div>
-           
-            <div class="dash-ii">
-                <div class="wallet-div">
-                    <div><i class="ri-wallet-line"></i></div>
-                    <div class="wallet-type-and-amt">
-                        <span id="seller-center" class="feature-note">Seller Balance</span>
-                        <span id="seller-center" class="myacct">$65,876.83</span>
-                    </div>
-                </div>
-                <div class="spec-div"><i class="ri-notification-line"></i></div>
-                <div class="icon-account-link">
-                    <div class="spec-div"><i class="ri-account-circle-line"></i></div>
-                    <div class="myacct">Hi, Badguy <span><i class="ri-arrow-down-s-line"></i></span></div>
-                </div>
-                
-            </div>
-          </nav>
-    
-          <div class="dash-opt-bar">
-                <div class="each-dash-div">
-                    <span class="dash-icon"><i class="ri-function-line"></i></span>
-                    <span class="dash-title">Dashboard</span>
-                </div>
-                <div class="each-dash-div">
-                    <span class="dash-icon"><i class="ri-store-2-line"></i></span>
-                    <span class="dash-title">Store</span>
-                </div>
-                <div class="each-dash-div">
-                    <span class="dash-icon"><i class="ri-shopping-cart-2-line"></i></span>
-                    <span class="dash-title">Orders</span>
-                </div>
-                <div class="each-dash-div">
-                    <span class="dash-icon"><i class="ri-home-8-line"></i></span>
-                    <span class="dash-title">Inventory</span>
-                </div>
-                <div class="each-dash-div">
-                    <span class="dash-icon"><i class="ri-flashlight-line"></i></span>
-                    <span class="dash-title">Activity</span>
-                </div>
-                <div class="each-dash-div">
-                    <span class="dash-icon"><i class="ri-settings-5-line"></i></span>
-                    <span class="dash-title">Settings</span>
-                </div>
+        <div class="acct-love-cart">
+          <div class="acct">
+            <span><i class="ri-account-circle-line"></i></span>
+            <span class="myacct">My Account</span>
+            <span><i class="ri-arrow-down-s-line"></i></span>
           </div>
-    
-            <div class="first-dashboard-sec">
-                <div class="dash-title-export-btn">
-                    <div class="dash-header-title">Dashboard</div>
-                    <div><Button class="join-login-btn"><span class="export-icon"><i class="ri-reply-line"></i></span>Export</Button></div>
-                </div>
-    
-                <div class="rev-prof-val-score">
-                    <div class="each-rpvs-div">
-                        <div id="rpvs-icon-id" class="spec-div"><i class="ri-exchange-dollar-line"></i></div>
-                        <div class="rpvs-text-sec">
-                            <div class="dash-light-title">TOTAL REVENUE</div>
-                            <div class="myacct-bold">$85,460.90</div>
-                            <div class="icon-and-bal">
-                                <div class="bal-green-icon"><i class="ri-arrow-up-s-fill"></i></div>
-                                <div class="bal">$3,400</div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="each-rpvs-div">
-                        <div id="rpvs-icon-id" class="spec-div"><i class="ri-money-dollar-circle-line"></i></div>
-                        <div class="rpvs-text-sec">
-                            <div class="dash-light-title">PROFIT MADE</div>
-                            <div class="myacct-bold">$2,860.00</div>
-                            <div class="icon-and-bal">
-                                <div class="bal-green-icon"><i class="ri-arrow-up-s-fill"></i></div>
-                                <div class="bal">$210</div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="each-rpvs-div">
-                        <div id="rpvs-icon-id" class="spec-div"><i class="ri-percent-line"></i></div>
-                        <div class="rpvs-text-sec">
-                            <div class="dash-light-title">AVG. ORDER VALUE</div>
-                            <div class="myacct-bold">$160.25</div>
-                            <div class="icon-and-bal">
-                                <div class="bal-red-icon"><i class="ri-arrow-down-s-fill"></i></div>
-                                <div class="bal">$2.50</div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="each-rpvs-div">
-                        <div id="rpvs-icon-id" class="spec-div"><i class="ri-exchange-dollar-line"></i></div>
-                        <div class="rpvs-text-sec">
-                            <div class="dash-light-title">MERCHANT SCORE</div>
-                            <div class="myacct-bold">89%</div>
-                            <div class="icon-and-bal">
-                                <div class="bal-green-icon"><i class="ri-arrow-up-s-fill"></i></div>
-                                <div class="bal">6%</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="order-summary-div">
-                    <div class="order-sum-title">ORDER SUMMARY</div>
-    
-                    <div class="numb-of-item-bar">
-                        <div class="each-item-bar">
-                            <span class="item-amount">2</span>
-                            <span class="dash-light-title">New Orders</span>
-                        </div>
-                        <div class="each-item-bar">
-                            <span class="item-amount">259</span>
-                            <span class="dash-light-title">Orders Recieved</span>
-                        </div>
-                        <div class="each-item-bar">
-                            <span class="item-amount">234</span>
-                            <span class="dash-light-title">Orders Shipped</span>
-                        </div>
-                        <div class="each-item-bar">
-                            <span class="item-amount">12</span>
-                            <span class="dash-light-title">Orders Returned</span>
-                        </div>
-                        <div class="each-item-bar">
-                            <span class="item-amount">11</span>
-                            <span class="dash-light-title">Orders Cancelled</span>
-                        </div>
-                    </div>
-    
-                    <div class="order-info-div">
-                        <div class="order-info">
-                            <div class="dash-light-title">ORDER DETAILS</div>
-                            <div class="dash-light-title">PRODUCT</div>
-                            <div class="dash-light-title">QTY</div>
-                            <div class="dash-light-title">AMOUNT</div>
-                            <div class="dash-light-title">STATUS</div>
-                            <div class="dash-light-title">OPTIONS</div>
-                        </div>
-    
-                        <div class="order-details">
-                            <div class="prod-num-date">
-                                <span class="prod-num">2023848595</span>
-                                <span class="prod-date-time">25 Aug, 2023 12:45 PM</span>
-                            </div>
-                            <div class="prod-num">Play Station 6</div>
-                            <div class="numb">1</div>
-                            <div class="numb">$3,460</div>
-                            <div><button class="new-btn">NEW</button></div>
-                            <div><button class="more-btn">More</button></div>
-                        </div>
-    
-                        <div class="order-details">
-                            <div class="prod-num-date">
-                                <span class="prod-num">2023848595</span>
-                                <span class="prod-date-time">25 Aug, 2023 12:45 PM</span>
-                            </div>
-                            <div class="prod-num">Play Station 6</div>
-                            <div class="numb">1</div>
-                            <div class="numb">$3,460</div>
-                            <div><button id="processing-btn" class="new-btn">PROCESSING</button></div>
-                            <div><button class="more-btn">More</button></div>
-                        </div>
-    
-                        <div class="order-details">
-                            <div class="prod-num-date">
-                                <span class="prod-num">2023848595</span>
-                                <span class="prod-date-time">25 Aug, 2023 12:45 PM</span>
-                            </div>
-                            <div class="prod-num">Play Station 6</div>
-                            <div class="numb">1</div>
-                            <div class="numb">$3,460</div>
-                            <div><button id="shipped-btn" class="new-btn">SHIPPED</button></div>
-                            <div><button class="more-btn">More</button></div>
-                        </div>
-    
-                        <div class="order-details">
-                            <div class="prod-num-date">
-                                <span class="prod-num">2023848595</span>
-                                <span class="prod-date-time">25 Aug, 2023 12:45 PM</span>
-                            </div>
-                            <div class="prod-num">Play Station 6</div>
-                            <div class="numb">1</div>
-                            <div class="numb">$3,460</div>
-                            <div><button id="delivered-btn" class="new-btn">DELIVERED</button></div>
-                            <div><button class="more-btn">More</button></div>
-                        </div>
-    
-                        <div class="order-details">
-                            <div class="prod-num-date">
-                                <span class="prod-num">2023848595</span>
-                                <span class="prod-date-time">25 Aug, 2023 12:45 PM</span>
-                            </div>
-                            <div class="prod-num">Play Station 6</div>
-                            <div class="numb">1</div>
-                            <div class="numb">$3,460</div>
-                            <div><button id="cancelled-btn" class="new-btn">CANCELLED</button></div>
-                            <div><button class="more-btn">More</button></div>
-                        </div>
-    
-                        <div class="order-details">
-                            <div class="prod-num-date">
-                                <span class="prod-num">2023848595</span>
-                                <span class="prod-date-time">25 Aug, 2023 12:45 PM</span>
-                            </div>
-                            <div class="prod-num">Play Station 6</div>
-                            <div class="numb">1</div>
-                            <div class="numb">$3,460</div>
-                            <div><button id="processing-btn" class="new-btn">PROCESSING</button></div>
-                            <div><button class="more-btn">More</button></div>
-                        </div>
-    
-                        <div class="order-details">
-                            <div class="prod-num-date">
-                                <span class="prod-num">2023848595</span>
-                                <span class="prod-date-time">25 Aug, 2023 12:45 PM</span>
-                            </div>
-                            <div class="prod-num">Play Station 6</div>
-                            <div class="numb">1</div>
-                            <div class="numb">$3,460</div>
-                            <div><button id="shipped-btn" class="new-btn">SHIPPED</button></div>
-                            <div><button class="more-btn">More</button></div>
-                        </div>
-                    </div>
-    
-                <div class="all-orders-div"><span class="dash-light-title">See All Orders</span><span><i class="ri-arrow-right-circle-fill"></i></span></div>
-    
-    
-                </div>
-    
-            </div>
-    </div>
-    <!-- Dashboard Content Ends-->
+          <div><i class="ri-heart-line"></i></div>
+          <div><i class="ri-shopping-cart-2-line"></i></div>
+        </div>
 
+        <!-- --- Dashboard Button--- -->
+        <div id="menu-toggle" class="menu-toggle">
+          <button class="dash-btn">
+            <a class="dash-link" href="/dashboard.html">Dashboard</a>
+          </button>
+        </div>
+      </div>
+    </nav>
 
 
     <div class="hero-section">
-        <div class="first-hero">
-            <div class="hero-txt-and-btn">
-                <div class="hero-text"><span class="colored-span">Are you covered?</span> <span>Home, Life & Auto Insurance.</span></div>
-                <div class="hero-btn"><button class="get-started-btn">GET STARTED</button></div>
-            </div>
-
-            <div class="hero-img-part">
-                <!-- <div class="text-on-img">After using insurance, the burden on our minds felt much lighter.</div> -->
-                <div class="hero-img"><img class="hero-image" src="/images/hero-replacement-removebg-preview.png" alt=""></div>
-            </div>
+      <div class="first-hero">
+        <div class="hero-txt-and-btn">
+          <div class="hero-text">
+            <span class="colored-span">Are you covered?</span>
+            <span>Home, Life & Auto Insurance.</span>
+          </div>
+          <div class="hero-btn">
+            <button class="get-started-btn">GET STARTED</button>
+          </div>
         </div>
 
-        <div class="second-hero">
-            <div class="sign-up-icon"><i id="sign-up-icon-id" class="ri-account-circle-line"></i></div>
-            <div class="welcome-text">Welcome to Sho<span class="colored-span">pSp</span>here!</div>
-            <div><button id="get-started-id" class="get-started-btn">REGISTER</button></div>
-            
-            <div class="sell-section">
-                    <div class="ss-icon-and-text">
-                        <div class="store-icon"><i class="ri-store-2-line"></i></div>
-                        <div class="welcome-text">Sell on Sho<span class="colored-span">pSp</span>here to start</div>
-                    </div>
-                <div><button id="start-now-btn" class="get-started-btn">Start Now</button></div>
-            </div>
+        <div class="hero-img-part">
+          <!-- <div class="text-on-img">After using insurance, the burden on our minds felt much lighter.</div> -->
+          <div class="hero-img">
+            <img
+              class="hero-image"
+              src="/images/hero-replacement-removebg-preview.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="second-hero">
+        <div class="sign-up-icon">
+          <i id="sign-up-icon-id" class="ri-account-circle-line"></i>
+        </div>
+        <div class="welcome-text">
+          Welcome to Sho<span class="colored-span">pSp</span>here!
+        </div>
+        <div>
+          <button id="get-started-id" class="get-started-btn">REGISTER</button>
         </div>
 
+        <div class="sell-section">
+          <div class="ss-icon-and-text">
+            <div class="store-icon"><i class="ri-store-2-line"></i></div>
+            <div class="welcome-text">
+              Sell on Sho<span class="colored-span">pSp</span>here to start
+            </div>
+          </div>
+          <div>
+            <button id="start-now-btn" class="get-started-btn">
+              Start Now
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="welcome-text" id="sbc-heading">Shop by category</div>
 
     <div class="category-container">
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-        <div class="item-div">
-            <div class="item-img"><img class="item-image" src="/images/Appliances_1-removebg-preview.png" alt=""></div>
-            <div class="item-title">Washine Machine</div>
+        <div class="item-title">Washine Machine</div>
+      </div>
+      <div class="item-div">
+        <div class="item-img">
+          <img
+            class="item-image"
+            src="/images/Appliances_1-removebg-preview.png"
+            alt=""
+          />
         </div>
-
+        <div class="item-title">Washine Machine</div>
+      </div>
     </div>
 
     <div class="discount-section">
-
-        <div class="first-d-s">
-            <div class="discount-text">
-                <div id="get-up-to-id" class="myacct">Get up to <span class="colored-span">20% OFF</span></div>
-                <div id="sport-outfit-id" class="bolded">SPORTS OUTFITS</div>
-                <div class="myacct">Collection</div>
-                <div class="myacct">Starting at <span class="colored-span">$170.00</span></div>
-            </div>
-            <div class="discount-img"><img class="discount-image" src="/images/sportwear1-removebg-preview.png" alt=""></div>
+      <div class="first-d-s">
+        <div class="discount-text">
+          <div id="get-up-to-id" class="myacct">
+            Get up to <span class="colored-span">20% OFF</span>
+          </div>
+          <div id="sport-outfit-id" class="bolded">SPORTS OUTFITS</div>
+          <div class="myacct">Collection</div>
+          <div class="myacct">
+            Starting at <span class="colored-span">$170.00</span>
+          </div>
         </div>
-
-        <div id="second-d-s" class="first-d-s">
-            <div class="discount-text">
-                <div class="myacct">New Arrivals</div>
-                <div class="bolded">BEVERAGE</div>
-                <div class="myacct">Collection</div>
-                <div class="myacct">Starting at $99.00</div>
-            </div>
-            <div class="discount-img"><img class="discount-image" src="/images/wine1-removebg-preview.png" alt=""></div>
+        <div class="discount-img">
+          <img
+            class="discount-image"
+            src="/images/sportwear1-removebg-preview.png"
+            alt=""
+          />
         </div>
+      </div>
 
+      <div id="second-d-s" class="first-d-s">
+        <div class="discount-text">
+          <div class="myacct">New Arrivals</div>
+          <div class="bolded">BEVERAGE</div>
+          <div class="myacct">Collection</div>
+          <div class="myacct">Starting at $99.00</div>
+        </div>
+        <div class="discount-img">
+          <img
+            class="discount-image"
+            src="/images/wine1-removebg-preview.png"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
 
     <div class="welcome-text" id="sbc-heading-2">Best selling products</div>
 
     <div class="best-selling-prod-sec">
-        
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div class="each-item">
+      <div class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div id="ei-hidden-item" class="each-item">
+      <div id="ei-hidden-item" class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
+      </div>
 
-    <div id="ei-hidden-item" class="each-item">
+      <div id="ei-hidden-item" class="each-item">
         <div class="cart-and-love">
-            <div class="add-and-minus-bar">
-                <span id="minus-sign"><b>-</b></span> 1 <span id="plus-sign">+</span>
-              </div>
-            <div><i class="ri-heart-line"></i></div>
+          <div class="add-and-minus-bar">
+            <span id="minus-sign"><b>-</b></span> 1
+            <span id="plus-sign">+</span>
+          </div>
+          <div><i class="ri-heart-line"></i></div>
         </div>
 
-        <div class="each-item-img"><img class="each-item-image" src="/images/ps5-removebg-preview.png" alt=""></div>
-        <div class="item-brief-text">PS5 consoles, support for voice chat on Discord</div>
+        <div class="each-item-img">
+          <img
+            class="each-item-image"
+            src="/images/ps5-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="item-brief-text">
+          PS5 consoles, support for voice chat on Discord
+        </div>
 
         <div class="star-and-rating">
-            <span>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-                <i class="ri-star-line"></i>
-            </span>
-            <span>4.85</span>
+          <span>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+            <i class="ri-star-line"></i>
+          </span>
+          <span>4.85</span>
         </div>
         <div class="price-tag">
-            <span id="slashed-price">$499.99</span>
-            <span>$450.00</span>
+          <span id="slashed-price">$499.99</span>
+          <span>$450.00</span>
         </div>
-    </div>
-
+      </div>
     </div>
 
     <div class="page-note">
-        <div class="site-x-logo">Sho<span class="colored-span">pSp</span>here</div>
-        <div class="notice-text"><b>|</b></div>
-        <div class="notice-text">Own it now, for up to 6 months without interest. <a class="link-text" href="https://www.google.com">Learn more</a></div>
+      <div class="site-x-logo">
+        Sho<span class="colored-span">pSp</span>here
+      </div>
+      <div class="notice-text"><b>|</b></div>
+      <div class="notice-text">
+        Own it now, for up to 6 months without interest.
+        <a class="link-text" href="https://www.google.com">Learn more</a>
+      </div>
     </div>
 
     <div class="shopsphere-features">
-        <div class="diff-feature-container">
-            <div class="feature-icon"><i class="ri-customer-service-fill"></i></div>
-            <div class="notice-text-i">Product assistance/suppport</div>
-            <div class="feature-note">Up to years on-site warranty available for your peace of mind</div>
+      <div class="diff-feature-container">
+        <div class="feature-icon"><i class="ri-customer-service-fill"></i></div>
+        <div class="notice-text-i">Product assistance/suppport</div>
+        <div class="feature-note">
+          Up to years on-site warranty available for your peace of mind
         </div>
-        <div class="diff-feature-container">
-            <div class="feature-icon"><i class="ri-truck-line"></i></div>
-            <div class="notice-text-i">Quick delivery</div>
-            <div class="feature-note">Up to years on-site warranty available for your peace of mind</div>
+      </div>
+      <div class="diff-feature-container">
+        <div class="feature-icon"><i class="ri-truck-line"></i></div>
+        <div class="notice-text-i">Quick delivery</div>
+        <div class="feature-note">
+          Up to years on-site warranty available for your peace of mind
         </div>
-        <div class="diff-feature-container">
-            <div class="feature-icon"><i class="ri-secure-payment-fill"></i></div>
-            <div class="notice-text-i">Secured Payment</div>
-            <div class="feature-note">Up to years on-site warranty available for your peace of mind</div>
+      </div>
+      <div class="diff-feature-container">
+        <div class="feature-icon"><i class="ri-secure-payment-fill"></i></div>
+        <div class="notice-text-i">Secured Payment</div>
+        <div class="feature-note">
+          Up to years on-site warranty available for your peace of mind
         </div>
-        <div class="diff-feature-container">
-            <div class="feature-icon"><i class="ri-contacts-book-fill"></i></div>
-            <div class="notice-text-i">24/7 contact support</div>
-            <div class="feature-note">Up to years on-site warranty available for your peace of mind</div>
+      </div>
+      <div class="diff-feature-container">
+        <div class="feature-icon"><i class="ri-contacts-book-fill"></i></div>
+        <div class="notice-text-i">24/7 contact support</div>
+        <div class="feature-note">
+          Up to years on-site warranty available for your peace of mind
         </div>
-        <div id="ei-hidden-item" class="diff-feature-container">
-            <div class="feature-icon"><i class="ri-shopping-basket-fill"></i></div>
-            <div class="notice-text-i">Purchase with confidence</div>
-            <div class="feature-note">Up to years on-site warranty available for your peace of mind</div>
+      </div>
+      <div id="ei-hidden-item" class="diff-feature-container">
+        <div class="feature-icon"><i class="ri-shopping-basket-fill"></i></div>
+        <div class="notice-text-i">Purchase with confidence</div>
+        <div class="feature-note">
+          Up to years on-site warranty available for your peace of mind
         </div>
+      </div>
     </div>
 
-
     <footer class="footer">
-
-        <div class="footer-infomation">
-            <div id="site-x-logo-id" class="site-x-logo">ShopSphere</div>
-                <div id="feature-note-id" class="feature-note-i">Make your dream come true with special discount, vouchers, promotions and lots of great products at the lowest price. All for free.</div>
-                <div><button class="join-login-btn" type="submit">Join Or Login</button></div>
+      <div class="footer-infomation">
+        <div id="site-x-logo-id" class="site-x-logo">ShopSphere</div>
+        <div id="feature-note-id" class="feature-note-i">
+          Make your dream come true with special discount, vouchers, promotions
+          and lots of great products at the lowest price. All for free.
         </div>
-        
-        <div class="separation-footer-div">
+        <div>
+          <button class="join-login-btn" type="submit">Join Or Login</button>
+        </div>
+      </div>
+
+      <div class="separation-footer-div">
         <div class="footer-infomation">
           <div class="main-footer-info">Features</div>
           <!-- <div class="feature-note-i">Consultation</div> -->
@@ -872,8 +911,8 @@
           <div class="feature-note-i">About Us</div>
           <div class="feature-note-i">Informations</div>
         </div>
-    </div>
-    <div class="separation-footer-div">
+      </div>
+      <div class="separation-footer-div">
         <div class="footer-infomation">
           <div class="main-footer-info">Help</div>
           <div class="feature-note-i">Get Help</div>
@@ -888,17 +927,26 @@
           <!-- <div class="feature-note-i">Information Security Policy</div> -->
           <div class="feature-note-i">Cookie Policy</div>
         </div>
-    </div>
+      </div>
 
-        <div class="footer-icon-list">
-            <a class="footer-icon" href="https://facebook.com/shopsphere"><i class="ri-facebook-fill"></i></a>
-            <a class="footer-icon" href="https://twitter.com/shopsphere"><i class="ri-twitter-fill"></i></a>
-            <a class="footer-icon" href="https://linkedin.com/in/shopsphere"><i class="ri-linkedin-fill"></i></a>
-            <a class="footer-icon" href="https://instagram.com/shopsphere"><i class="ri-instagram-fill"></i></a>
-            <a class="footer-icon" href="mailto:shopsphere@outlook.com"><i class="ri-mail-fill"></i
-            ></a>
-          </div>
-      </footer>
+      <div class="footer-icon-list">
+        <a class="footer-icon" href="https://facebook.com/shopsphere"
+          ><i class="ri-facebook-fill"></i
+        ></a>
+        <a class="footer-icon" href="https://twitter.com/shopsphere"
+          ><i class="ri-twitter-fill"></i
+        ></a>
+        <a class="footer-icon" href="https://linkedin.com/in/shopsphere"
+          ><i class="ri-linkedin-fill"></i
+        ></a>
+        <a class="footer-icon" href="https://instagram.com/shopsphere"
+          ><i class="ri-instagram-fill"></i
+        ></a>
+        <a class="footer-icon" href="mailto:shopsphere@outlook.com"
+          ><i class="ri-mail-fill"></i
+        ></a>
+      </div>
+    </footer>
 
     <script src="/app.js"></script>
   </body>
