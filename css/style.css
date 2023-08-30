@@ -829,8 +829,7 @@ body {
   align-items: center;
   padding: 3px 0;
 }
-
-.prod-num-date {
+. .prod-num-date {
   display: flex;
   flex-direction: column;
 }
@@ -1107,7 +1106,7 @@ body {
     font-size: 14px;
   }
   .dash-light-title {
-    font-size: 8px;
+    font-size: 7px;
   }
   .prod-num {
     font-size: 8px;
@@ -1115,6 +1114,7 @@ body {
   .new-btn {
     font-size: 8px;
     padding: 4px 10px;
+    font-weight: 800;
   }
   .more-btn {
     font-size: 8px;
@@ -1130,10 +1130,34 @@ body {
     grid-template-columns: repeat(6, 1fr);
     text-align: center;
   }
+
   .each-rpvs-div {
     width: 160px;
   }
   .prod-date-time {
     display: none;
+  }
+  .order-info {
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+  }
+  .order-info-div {
+    padding: 0;
+  }
+  #processing-btn {
+    font-size: 6px;
+  }
+  #delivered-btn {
+    font-size: 6px;
+  }
+  #cancelled-btn {
+    font-size: 6px;
+  }
+  #shipped-btn {
+    font-size: 6px;
+  }
+  #new-only-btn {
+    font-size: 6px;
+    font-weight: 700;
   }
 }
